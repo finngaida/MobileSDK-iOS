@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = "SelligentMarketingCloud"
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/SelligentMarketingCloud/MobileSDK-iOS.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/SelligentMarketingCloud/MobileSDK-iOS.git", :branch => 'hotfix_2.5.1' }
   
   s.default_subspec = "Core"
 
