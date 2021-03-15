@@ -1,5 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SelligentMobileSDK"
+  s.version      = "2.5.1"
   s.summary      = "Selligent Marketing Cloud - Mobile SDK for iOS"
   s.description  = <<-DESC
     The Selligent Marketing Cloud - Mobile SDK is a tool that enables you to use the Selligent Marketing Cloud - Mobile feature in a very easy and straightforward way.
@@ -9,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = "SelligentMarketingCloud"
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/SelligentMarketingCloud/MobileSDK-iOS.git", :branch => 'hotfix_2.5.1' }
+  s.source       = { :git => "https://github.com/SelligentMarketingCloud/MobileSDK-iOS.git", :tag => 'hotfix_2.5.1' }
   
   s.default_subspec = "Core"
 
