@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SelligentMobileSDK",
-            path: "iOS Framework/SelligentMobileSDK.xcframework"
+            path: "./SelligentMobileSDK.xcframework"
         ),
     ]
 )
